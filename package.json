@@ -1,0 +1,27 @@
+{
+  "name": "ticketv2",
+  "version": "1.0.0",
+  "description": "#### PROBLEM STATEMENT     To Setup a NodeJS server on EC2 to handle ticketing for a bus company. #### Context:     1 bus, 40 seats. One ticket per seat. #### Features from the server:  - Update the ticket status (open/close + adding user details)  - View all closed tickets  - View Ticket Status  - View all open tickets  - View Details of person owning the ticket.  - Additional API for admin to reset the server (opens up all the tickets)",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js",
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/karansinghgit/repository.git"
+  },
+  "dependencies": {},
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "bcrypt": "^5.0.0",
+    "chai": "^4.2.0",
+    "chai-http": "^4.3.0",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1",
+    "mocha": "^8.0.1",
+    "mongoose": "^5.9.22"
+  }
+}
